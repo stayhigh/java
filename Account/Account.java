@@ -1,4 +1,8 @@
 public class Account {
+	
+	static {
+		System.out.println("Account class loaded");
+	}
     private String accountNumber;
     private double balance;
 
