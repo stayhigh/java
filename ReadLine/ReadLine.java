@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Hello{
+public class ReadLine{
     public static void main(String[] args) throws IOException{
         BufferedReader bufferedReader = new BufferedReader( new InputStreamReader( System.in));
         System.out.print("input a line of text which could contains blank: ");
