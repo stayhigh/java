@@ -22,7 +22,10 @@ public class JavaProgramProtype{
     }
 
     Big(int private_instance_variable, int protected_instance_variable, int public_instance_variable){
-        //'this' keyword is used to differentiate the instance variables from local variables (left-side: instance variable, right-side: local variable)
+        /*
+         * 'this' keyword is used to differentiate the instance variables from local variables 
+         * (left-side: instance variable, right-side: local variable)
+         */
         this.private_instance_variable = private_instance_variable;
         this.protected_instance_variable = protected_instance_variable;
         this.public_instance_variable = public_instance_variable;
