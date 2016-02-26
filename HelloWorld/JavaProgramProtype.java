@@ -1,4 +1,4 @@
-public class Big{
+public class JavaProgramProtype{
 
     //Java basic data types
     byte bytedata;
