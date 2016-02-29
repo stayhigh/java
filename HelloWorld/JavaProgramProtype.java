@@ -1,3 +1,10 @@
+//inheritance
+class Super{
+}
+
+class Sub extends Super{
+}
+
 public class JavaProgramProtype{
 
     //Java basic data types
@@ -15,13 +22,13 @@ public class JavaProgramProtype{
     public static int public_instance_variable;
 
     //constructor overloading
-    Big(){
+    JavaProgramProtype(){
         private_instance_variable = 1;
         protected_instance_variable = 2;
         public_instance_variable = 3;
     }
 
-    Big(int private_instance_variable, int protected_instance_variable, int public_instance_variable){
+    JavaProgramProtype(int private_instance_variable, int protected_instance_variable, int public_instance_variable){
         /*
          * 'this' keyword is used to differentiate the instance variables from local variables 
          * (left-side: instance variable, right-side: local variable)
