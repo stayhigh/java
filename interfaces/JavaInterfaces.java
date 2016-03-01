@@ -14,8 +14,8 @@
 
 
 interface JavaInterfaces{
-    final int final_int_field = 10;
-    static int static_int_field = 2;
+    final int final_int_field = 10; // the final variable must be assigned a value
+    static int static_int_field = 2; // the static variable must be assigned a value
     abstract public void abstract_pub_method();
     //abstract protected void abstract_pro_method();
     //abstract private void abstract_pro_method();
